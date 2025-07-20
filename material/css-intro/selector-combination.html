@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Selector</title>
+    <style>
+      .first p {
+        /* .first + p { */
+        /* .first > p { */
+        /* .first ~ p { */
+        background-color: yellow;
+      }
+      .second h3.title {
+        background-color: salmon;
+      }
+      .second .content .title {
+        background-color: cyan;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      <p>level 1 - 1</p>
+      <div>
+        <p>level 2 - 1</p>
+        <p>level 2 - 2</p>
+      </div>
+      <p>level 1 - 1</p>
+    </div>
+    <p>Paragraph1</p>
+    <p>Paragraph2</p>
+    <div class="second">
+      <h3 class="title">second level 1</h3>
+      <div class="content">
+        <p class="title">second level 2</p>
+      </div>
+    </div>
+    <p>Paragraph3</p>
+    <p>Paragraph4</p>
+  </body>
+</html>

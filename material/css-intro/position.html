@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+  </head>
+  <body style="margin: 0">
+    <h1 style="text-align: center">Grandblue Fantasy</h1>
+    <div style="position: relative; width: 960px; height: 540px; margin: auto">
+      <img
+        src="https://picsum.photos/960/540"
+        alt="grandblue-fantasy"
+        style="opacity: 0.5; height: 100%; position: absolute; z-index: -1"
+      />
+      <h2
+        style="
+          width: 100%;
+          position: absolute;
+          top: 0px;
+          color: red;
+          z-index: 1;
+        "
+      >
+        Left
+        <span style="float: right">Right</span>
+      </h2>
+      <img
+        src="https://picsum.photos/50/50"
+        alt="grandblue-fantasy"
+        style="position: absolute; width: 50px; bottom: 0; z-index: 5"
+      />
+    </div>
+    <div style="margin-bottom: 60px"></div>
+    <footer
+      style="
+        position: fixed;
+        z-index: 100;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background-color: slategray;
+        color: snow;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      "
+    >
+      <p style="font-style: italic; text-align: right; margin-right: 20px">
+        Araiva
+      </p>
+    </footer>
+  </body>
+</html>

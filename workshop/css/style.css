@@ -1,0 +1,152 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #222834;
+  color: #eeeeee;
+  margin: 0;
+}
+
+/* STRONG, I, EM STYLE IN ARTICLE */
+strong,
+i,
+em {
+  color: #94b3fd;
+}
+
+/* LINK STYLE */
+a {
+  text-decoration: none;
+}
+
+a:hover > * {
+  cursor: pointer;
+}
+
+/* INPUT STYLE */
+input[type="text"] {
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="email"] {
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Default sheet style*/
+.container {
+  width: 70%;
+  min-width: 320px;
+  max-width: 768px;
+  margin: auto;
+}
+
+/* BUTTON STYLE */
+.btn {
+  text-align: center;
+  min-width: 60px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: #186ab8;
+  border: none;
+  color: #eeeeee;
+}
+
+/* FORM FIELD STYLE */
+.form-field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* NAVIGATION STYLE */
+nav {
+  background-color: #186ab8;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  min-width: 320px;
+  max-width: 768px;
+  margin: auto;
+}
+
+nav h1.title {
+  display: inline-block;
+  margin: 0;
+}
+
+nav img.logo {
+  width: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+nav ul.list {
+  float: right;
+  margin: 10px 0 10px;
+}
+
+nav ul li.list-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li.list-item a {
+  color: #eeeeee;
+}
+
+/* HEADER STYLE */
+header {
+  text-align: center;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+header img.cover {
+  min-height: 240px;
+  max-height: 360px;
+  width: 100%;
+  height: 50vh;
+  margin: auto;
+  object-fit: contain;
+}
+
+/* IMG ICON STYLE */
+header img.icon {
+  width: 36px;
+  height: 36px;
+  margin: 8px 8px 8px 8px;
+  border-radius: 50%;
+}
+
+/* FOOTER STYLE */
+footer {
+  margin-bottom: 20px;
+}
+
+footer .contact {
+  float: left;
+  margin-left: 40px;
+  width: 40%;
+  min-width: 240px;
+}
+footer .address {
+  float: right;
+  width: 40%;
+  min-width: 240px;
+}
