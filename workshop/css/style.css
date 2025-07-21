@@ -59,18 +59,16 @@ textarea {
 /* NAVIGATION STYLE */
 nav {
   background-color: #186ab8;
-  padding: 20px;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
-nav .container {
+nav .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
-  margin: auto;
+  padding: 20px;
 }
 
 nav h1.title {
@@ -106,7 +104,7 @@ header img.cover {
 header img.icon {
   width: 36px;
   height: 36px;
-  margin: 8px 8px 8px 8px;
+  margin: 8px;
   border-radius: 50%;
 }
 
